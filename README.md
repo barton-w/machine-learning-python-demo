@@ -5,4 +5,12 @@
 
 ### Steps to interact with the materials in this repo:
 1. [Browse the Overview slides to learn about key-concepts](https://docs.google.com/presentation/d/14pzJLsGrJKwv_9sjqBu4zxF6JJ7LVvL0I8dr4WnWwvE/edit?usp=sharing)
-2. Run iris_flowers.py using Python 3. Feel free to comment-out and uncomment various sections of the code.
+
+2. Install a handful SciPy packages. More info [here](https://www.scipy.org/install.html)
+  * scipy
+  * numpy
+  * pandas
+  * sklearn
+  * matplotlib
+
+3. Run iris_flowers.py using Python 3. Feel free to comment-out and uncomment various sections of the code.
