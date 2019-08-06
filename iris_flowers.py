@@ -24,7 +24,7 @@ url = "./iris_flowers.csv"
 names = ["sepal-length", "sepal-width", "petal-length", "petal-width", "class"]
 #print(names)
 dataset = pandas.read_csv(url, names=names)
-print(dataset)
+#print(dataset)
 
 ###################################################
 #Various ways to look at the data, and visualize it
@@ -50,7 +50,7 @@ print(dataset)
 ###################################################
 #Splitting the data randomly into a training dataset and a validation dataset
 ###################################################
-#creating an array of sub-arrays for each row, with all the values (not column names) from the dataset
+#creating a list of sub-lists for each row, with all the values (not column names) from the dataset
 array = dataset.values
 #print(array)
 #slicing each row to include only the sepal and petal measurements
@@ -78,7 +78,7 @@ iris_attributes_train, iris_attributes_validate, iris_species_train, iris_specie
 ###################################################
 #Evaluating the performance of various models
 ###################################################
-#Populate various ML models into an array. The models array will have a label for each and the function definiing each model
+# #Populate various ML models into a list. The models list will have a label for each and the function definiing each model
 # models = []
 # models.append(("LR", LogisticRegression(solver="liblinear", multi_class="ovr"))) #liblinear and ovr are default, but throws a warning if not explicitly supplied
 # models.append(("LDA", LinearDiscriminantAnalysis()))
@@ -88,7 +88,7 @@ iris_attributes_train, iris_attributes_validate, iris_species_train, iris_specie
 # models.append(("SVM", SVC(gamma="auto"))) #auto is the default, but throws a warning if not explicitly supplied
 # #print(models)
 #
-# #Loop over the array, evaluating each model
+# #Loop over the list, evaluating each model
 # #Passed into the scoring argument below, this tells the cross_val_score function to compute the percent of correct predictions
 # scoring = "accuracy"
 # for name, model in models:
