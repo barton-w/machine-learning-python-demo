@@ -1,5 +1,4 @@
 # Machine Learning - Python Demo
-## A simple "Hello World" demonstrating basic ML concepts with Python.
 
 ### In this tutorial I perform various operations on the famous Iris Flowers dataset, which is a popular intro-to-ML exercise.
 
